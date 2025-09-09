@@ -1,0 +1,28 @@
+<Defs>
+    <!-- Khopesh (Egypt)-->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>CA_Melee_Khopesh</defName>
+        <label>Khopesh</label>
+        <description>The khopesh is an ancient Egyptian sickle-sword with a curved blade, combining axe and sword features, used for slashing, hooking, and symbolizing royal power.</description>
+        <graphicData>
+            <texPath>WeaponsMelee/CA_Melee_Khopesh</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <costStuffCount>40</costStuffCount>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>0.65</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <ArtisticAbility>1</ArtisticAbility>
+        </equippedStatOffsets>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <relicChance>3</relicChance>
+    </ThingDef>
+    <!-- Katar (India) -->
+    <!-- Yatagan (Ottomans) -->
+    <!-- Katana (Japan) -->
+    <!-- Shotel (Ethiopia)-->
+</Defs>
